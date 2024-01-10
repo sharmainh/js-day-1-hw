@@ -43,10 +43,10 @@ function replaceEvens(arr){
             arr.splice(i,1,'even index'); /* splice(index, # of items to be 
                                           removed, new element(s) to be added)*/
         }
-        console.log(given_arr)
+        console.log(given_arr);
     }
 }
-console.log(replaceEvens(given_arr))
+console.log(replaceEvens(given_arr));
 //Expected output
 //Given arr == ["Max","Baseball","Reboot","Goku","Trucks","Rodger"]
 //Output arr == ["even index","Baseball","even index","Goku","even index","Rodger"]
